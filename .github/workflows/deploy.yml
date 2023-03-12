@@ -6,10 +6,9 @@ on:
       - dev
 env:
   MONGODB_DB_NAME: gha-demo
-
 jobs:
   env:
-    MONGODB_CLUSTER_ADDRESS: @cluster0.rtdibij.mongodb.net
+    MONGODB_CLUSTER_ADDRESS: cluster0.rtdibij.mongodb.net
     MONGODB_USERNAME: thuyheobeo
     MONGODB_PASSWORD: 7LMAc3oNnq2gSSi4
     PORT: 8080
